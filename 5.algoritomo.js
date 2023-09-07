@@ -1,7 +1,7 @@
-let vector = [1,2,3]
-let result=[];
+let vector = [1,2,3,4]
+let result=0;
 for(i=0;i<vector.length;i++){
-    result.push = vector.length + vector[i];
+    result +=   vector[i];
 }
 
 console.log(result);
